@@ -1,3 +1,10 @@
+body{
+  font-size: 16;
+  line-height: 1.5;
+  font-family: "Roboto", "Arial", sans-serif;
+  letter-spacing: 0.5px;
+}
+
 /* SITE-HEADER */
 .site-header{
   /* width: 1,440px;
@@ -56,20 +63,16 @@
 
 .hero-heading{
   font-size: 40px;
+  font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
   /* font-weight: 700; */
   line-height: 1.2;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
   /* color: #fff; */
 }
 
-.hero-text{
-  font-size: 16px;
-  /* font-weight: 400; */
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  /* color: #fff; */
-}
+/* .hero-text{
+
+} */
 
 .hero-img{
   width: 510px;
@@ -81,7 +84,8 @@
 .features-heading{
   width: 440px;
   font-size: 72px;
-  font-weight: 700;
+  font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
+  /* font-weight: 700; */
   line-height: 1.2px;
   letter-spacing: 0.5px;
   /* text-transform: uppercase;  */
@@ -100,19 +104,14 @@
 
 .features-title{
   font-size: 24px;
-  /* font-weight: 700; */
   line-height: 1.2;
-  letter-spacing: 0.5px;
+  font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
+  /* font-weight: 700; */
   /* color: #000; */
 }
 
-.features-info{
-  font-size: 16px;
-  /* font-weight: 400; */
-  line-height: 1.5;
-  letter-spacing: 0.5px;
-  /* color: #000; */
-}
+/* .features-info{
+} */
 
 
 /* AKSIYA */
@@ -128,19 +127,15 @@
 .sale-heading{
   font-size: 40px;
   line-height: 48px;
+  font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
   /* font-weight: 700; */
   /* letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #fff; */
 }
 
-.sale-info{
-  font-size: 16px;
-  line-height: 1.5;
-  /* font-weight: 400;
-  letter-spacing: 0.5px;
-  color: #fff; */
-}
+/* .sale-info{
+} */
 
 .sale-strong{
   /* font-size: 16px;
@@ -189,13 +184,14 @@
 
 .site-footer-link-list{
   width: 224px;
+  line-height: 19px;
 }
 
 
 .site-footer-link{
-  font-size: 16px;
+  /* font-size: 16px; */
   /* font-weight: 400; */
-  line-height: 19px;
+  /* line-height: 19px; */
   text-decoration: none;
   color: #252420;
 }
