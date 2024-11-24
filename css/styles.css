@@ -5,11 +5,13 @@ body{
   letter-spacing: 0.5px;
 }
 
-/* *:focus{
-  outline-color: #FF7500;
+*:focus{
+  outline: 2px dotted #FF7500;
+  /* outline-color: #FF7500;
   outline-style: dashed;
-  outline-width: 2px;
-} */
+  outline-width: 2px; */
+  outline-offset: 3px;
+}
 
 /* SITE-HEADER */
 .site-header{
@@ -196,14 +198,6 @@ body{
   /* justify-content: center; */
 }
 
-.socials-icon{
-  color: #252420;
-  transition: background-color 0.4s ease;
-}
-
-.socials-icon:hover{
-  background-color: #FF7500;
-}
 .socials-icon:active{
   opacity: 0.6;
 }
