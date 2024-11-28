@@ -1,4 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
+  padding: 0;
+  margin: 0;
   font-size: 16px;
   line-height: 1.5;
   font-family: "Roboto", "Arial", sans-serif;
@@ -13,16 +19,29 @@ body{
   outline-offset: 3px;
 }
 
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* SITE-HEADER */
 .site-header{
+  border-top: 5px solid #FF7500;
+  background-color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.site-header-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  border-top: 5px solid #FF7500;
-  background-color: #fff;
 }
+
 .site-header-cap{
   height: 5px;
   border-top: 5px solid #FF7500;
@@ -59,7 +78,7 @@ body{
 }
 
 .sitenav-item{
-  margin-right: 32;
+  margin-right: 32px;
 }
 .sitenav-item:last-child{
   margin-right: 0;
@@ -107,13 +126,15 @@ body{
 
 /* HERO */
 .hero{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-top: 80px;
   padding-bottom: 80px;
   background-color: #252420;
   color: #fff;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-content{
@@ -150,8 +171,8 @@ body{
 .hero-img{
   width: 510px;
   height: 510px;
-  /* padding: 40px 170px; */
   border-radius: 8px;
+  /* box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6); */
 }
 
 
@@ -201,7 +222,7 @@ body{
 .features-title{
   font-size: 24px;
   line-height: 1.2;
-  margin: 0;
+  margin-top: 0;
   margin-bottom: 12px;
   font-family: "Roboto Condenced", "Roboto", "Arial", sans-serif;
 }
@@ -214,25 +235,21 @@ body{
 
 /* AKSIYA */
 .sale{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+.promo-inner{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 64px;
   border-radius: 12px;
-  /* padding-left: 170px;
-  padding-right: 170px; */
-  /* padding-top: 120px;
-  padding-bottom: 160px; */
   background-color: #252420;
   color: #fff;
 }
 
 .sale-content{
   width: 440px;
-  /* padding: 64px 64px 92px 64px; */
-  /* padding-top: 64px;
-  padding-bottom: 64px;
-  padding-left: 64px;
-  padding-right: 92px; */
 }
 
 .sale-heading{
@@ -274,16 +291,15 @@ body{
 
 /* SITE-FOOTER */
 .site-footer{
-  background-color: #f8f8f8;
   padding-top: 56px;
   padding-bottom: 56px;
+  background-color: #f8f8f8;
 }
 
 .site-footer-top{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 56px 170px 40px; */
 }
 
 .socials{
@@ -327,17 +343,13 @@ body{
   height: 2px;
   border: 0;
   margin-top: 40px;
-  margin-bottom: 54px;
+  margin-bottom: 64px;
   background-color: rgba(37, 36, 32, 0.5);
 }
 
 .site-footer-bottom{
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
-  width: 1,100px;
-  height: 229px;
-  padding: 64px 170px 56px;
+  /* padding: 64px 170px 56px; */
 }
 
 .site-footer-link-list{
@@ -354,6 +366,9 @@ body{
 
 .site-footer-list{
   margin-bottom: 16px;
+}
+.site-footer-list:last-child{
+  margin-bottom: 0;
 }
 
 
